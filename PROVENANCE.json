@@ -1,0 +1,85 @@
+{
+  "family_name": "Alan Font",
+  "adaptation_credit": "Sorani adaptation: Alan Font project",
+  "release_date": "2026-10-17",
+  "relationship": "Modified Version of Lalezar under SIL Open Font License 1.1",
+  "original_font": {
+    "family": "Lalezar",
+    "style": "Regular",
+    "version": "1.004",
+    "designer": "Borna Izadpanah",
+    "copyright": "Copyright 2015 The Lalezar Project Authors (https://github.com/BornaIz/Lalezar)",
+    "upstream_repository": "https://github.com/BornaIz/Lalezar",
+    "upstream_source_commit_declared_in_bundled_metadata": "238701c4241f207e92515f845a199be9131c1109",
+    "bundled_binary": "sources/Lalezar-Regular.ttf",
+    "bundled_binary_sha256": "7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9",
+    "bundled_license": "sources/Lalezar-OFL.txt",
+    "bundled_license_sha256": "327bac41d89cf9f32e0efe353228018e1661cff458a5d4905714958514df7bd5",
+    "metadata_evidence": "The bundled Lalezar-METADATA.pb and original font name records 0, 5, 8, 9, 13 and 14 were inspected."
+  },
+  "changes": [
+    "Rename primary font family to Alan Font, with derivative identity distinguished from Lalezar.",
+    "Add focused Sorani support for U+0695, U+06B5, U+06C6, U+06CE and U+06D5, with glyph/shaping implementation documented by the build.",
+    "Preserve original Lalezar copyright and SIL OFL 1.1 licensing; acknowledge the original designer."
+  ],
+  "added_character_support": [
+    {
+      "character": "ڕ",
+      "codepoint": "U+0695",
+      "unicode_name": "ARABIC LETTER REH WITH SMALL V BELOW"
+    },
+    {
+      "character": "ڵ",
+      "codepoint": "U+06B5",
+      "unicode_name": "ARABIC LETTER LAM WITH SMALL V"
+    },
+    {
+      "character": "ۆ",
+      "codepoint": "U+06C6",
+      "unicode_name": "ARABIC LETTER OE"
+    },
+    {
+      "character": "ێ",
+      "codepoint": "U+06CE",
+      "unicode_name": "ARABIC LETTER YEH WITH SMALL V"
+    },
+    {
+      "character": "ە",
+      "codepoint": "U+06D5",
+      "unicode_name": "ARABIC LETTER AE"
+    }
+  ],
+  "licensing": {
+    "spdx": "OFL-1.1",
+    "license_file": "OFL.txt",
+    "license_file_copied_verbatim_from_actual_lalezar_license": true,
+    "original_reserved_font_names": [],
+    "additional_reserved_font_names": [],
+    "reserved_name_note": "No Reserved Font Name declaration appears in the actual bundled Lalezar-OFL.txt. No new declaration is added on behalf of the original authors.",
+    "adaptation_copyright_note": "No personal author name or additional copyright owner was supplied. The project credit identifies the adaptation without asserting exclusive ownership of the original Lalezar design.",
+    "redistribution_summary": "Retain original copyright and OFL 1.1; redistribute the font and derivatives under OFL 1.1; do not sell the font by itself or imply endorsement by original authors.",
+    "artwork_note": "Using or embedding the font does not require resulting graphics, videos or documents to be licensed under the OFL.",
+    "official_references": [
+      {
+        "url": "https://openfontlicense.org/open-font-license-official-text/",
+        "purpose": "Authoritative OFL 1.1 conditions 1–5."
+      },
+      {
+        "url": "https://openfontlicense.org/ofl-faq/",
+        "purpose": "Official SIL FAQ 1.1–1.1.2 (artwork), 1.12–1.13 (embedding), 3.1 (modification/copyright), 3.6 (public release not required), 5.7 (no RFNs by default)."
+      },
+      {
+        "url": "https://openfontlicense.org/how-to-modify-ofl-fonts/",
+        "purpose": "Official guidance on attribution, renaming and documenting modifications."
+      }
+    ],
+    "references_checked_on": "2026-10-17"
+  },
+  "version": "1.000",
+  "release_files": {
+    "fonts/AlanFont-Regular.woff2": "8050771031b35ab2426efe78d18c3b10277ce3519fffa5af39ea12d84c8862e6",
+    "fonts/AlanFont-Regular.ttf": "d7f9cf2f82e6f1bffddfe5f728950c6792cb3cd3c8ff8937ff5b2a795e48087d"
+  },
+  "validation": "review/independent_font_checks.json",
+  "user_approved_preview": true
+}
